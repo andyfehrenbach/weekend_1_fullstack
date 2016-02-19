@@ -1,0 +1,82 @@
+h1, h2, h3, h4, h5, h6, p, label, input {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #fff;
+  opacity: .85;
+}
+p {
+  display: inline;
+  margin: 0 auto;
+}
+body {
+  height: 100vh;
+  background: url("/img/people.jpg") no-repeat center center, linear-gradient(tomato, maroon);
+  background-size: cover;
+  background-blend-mode: multiply, multiply;
+}
+form {
+  width: 80%;
+  border: 5px solid #fff;
+  margin: 0 auto;
+  opacity: .85;
+  padding: 2em;
+  /*display: block;*/
+}
+.container {
+  padding: 40px;
+  /*border: 20px solid maroon;*/
+  margin-bottom: 2em;
+}
+label {
+  display: inline-block;
+  text-align: right;
+  width: 500px;
+  vertical-align: middle;
+}
+input {
+  display: inline;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  padding: .5em 1em;
+  bottom: 1.5em;
+  right: 1.5em;
+  display: block;
+  margin: 1em auto;
+}
+input:focus {
+	outline: none;
+}
+
+input, button {
+  /*	display: block;*/
+  margin: .5em;
+  padding: .25em;
+  border: 5px solid #fff;
+  background: transparent;
+  opacity: .85;
+}
+body, div, button, form {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+button {
+  cursor: pointer;
+  background: none;
+  padding: .25em 1em;
+}
+button:hover {
+  /*color: maroon;*/
+  border: 5px solid maroon;
+}
+.removeEmployee {
+  display: inline;
+  margin: .5em 2em;
+}
+.employeeList {
+  margin: 0 auto;
+}

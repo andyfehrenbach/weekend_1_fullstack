@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weekened_1_Fullstack</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/vendors/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="/scripts/clientapp.js"></script>
+		<link rel="stylesheet" href="/styles/style.css" />
+	</head>
+
+	<body>
+	<div class="container">
+		<form id="employeeForm">
+			<label for="empFirstName">First Name: </label>
+			<input type="text" id="empFirstName" name="empFirstName" />
+
+			<label for="empLastName">Last Name: </label>
+			<input type="text" id="empLastName" name="empLastName" />
+
+			<label for="empIdNumber">ID number: </label>
+			<input type="text" id="empIdNumber" name="empIdNumber" />
+
+			<label for="empJobTitle">Job Title: </label>
+			<input type="text" id="empJobTitle" name="empJobTitle" />
+
+			<label for="empSalary">Employee Salary (yearly): </label>
+			<input type="text" id="empSalary" name="empSalary" />
+
+			<input type="submit" value="Submit Employee" />
+		</form>
+	</div>
+
+	<div id="container">
+		<div id="dataStore"></div>
+
+	</div>
+
+	<button id="totalSalaryButton"><h2> Calculate Total Salary </h2></button>
+
+	<h2 class="totalSalary"></h2>
+
+	<button class="removeEmployee"><p>Remove Employee</p></button>
+
+	</body>
+</html>
